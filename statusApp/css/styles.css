@@ -1,0 +1,74 @@
+body{
+	background-image: url('../img/bridge.jpeg');
+	background-size: cover;
+}
+
+form{
+	margin-top: 20px;
+	position: static;
+}
+
+.status-box{
+	background: #FFFFFF;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.form-control{
+	padding: 30px 20px;
+	border:none;
+	box-shadow: none;
+	font-size: 14px;
+}
+.for-button{
+	padding: 6px 10px 35px;
+	border-top: 1px solid silver;
+}
+.add-btn{
+	padding: 4px 8px;
+}
+.dark_background{
+	position: fixed;
+	top:0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.80);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+body.show-floater .dark_background{
+	opacity: 1;
+}
+body.show-floater .status-box{
+	transform: scale(1.1);
+}
+.media{
+	background-color: #ccd2dd;
+	border-radius: 5px;
+	padding: 10px 10px;
+}
+img{
+	height: 80px;
+	width: 80px;
+}
+
+.delete{
+	margin-top: -12px;
+}
+
+.sanjog{
+	position: fixed;
+	width: 58.5%;
+	z-index: 1;
+}
+
+.edit-box{
+	height: 100px !important;
+	width: 200px !important;
+	margin: -517px 0px 47px 307px;
+	position: relative;
+}
+.edit{
+	margin-top: -20px;
+
+}
